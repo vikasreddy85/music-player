@@ -16,80 +16,77 @@
    <body>
       <audio src="" id="audio"></audio>
       <div class="background-picture">
-         <div class="card">
-            <h3 class="music-counter">Playing 1 of 3</h3>
-            <figure class="playlist-image">
-              <img class="dot" src="img/king-gnu" alt="king-gnu-band">
-            </figure>
-            <h1 class="song-name">Falling Down</h1>
-            <h2 class="song-creator">Wild Cards</h2>
-            <div class="song-slider">
-               <input type="range" class="seek-bar" value="0" />
-               <span class="current-time">00:00</span>
-               <span class="song-duration">00:00</span>      
+      <div class="card">
+         <h3 class="music-counter">Playing 1 of 3</h3>
+         <figure class="playlist-image">
+            <img class="dot" src="img/king-gnu" alt="king-gnu-band">
+         </figure>
+         <h1 class="song-name">Falling Down</h1>
+         <h2 class="song-creator">Wild Cards</h2>
+         <div class="song-slider">
+            <input type="range" class="seek-bar" value="0" />
+            <span class="current-time">00:00</span>
+            <span class="song-duration">00:00</span>      
+         </div>
+         <div class="buttons">
+            <div class="random-track" onclick="randomTrack()">
+               <i class="fa-solid fa-shuffle"></i>
             </div>
-            <div class="buttons">
-               <div class="random-track" onclick="randomTrack()">
-                  <i class="fa-solid fa-shuffle"></i>
-               </div>
-               <div class="prev-track" onclick="prevTrack()">
-                  <i class="fa fa-step-backward fa-2x" title="prev"></i>
-               </div>
-               <div class="pause-track">
-                <i class="fa-solid fa-circle-play" onclick="changePauseBtn(this)"></i>
-              </div>
-               <div class="next-track" onclick="nextTrack()">
-                  <i class="fa fa-step-forward fa-2x" title="next"></i></i>
-               </div>
-               <div class="repeat-track" onclick="repeatTrack()">
-                  <i class="fa-solid fa-rotate-right"></i>
-               </div>
+            <div class="prev-track" onclick="prevTrack()">
+               <i class="fa fa-step-backward fa-3x" title="prev"></i>
             </div>
-            <div class="buttons">
-              <a class="btn btn--library">Library</a>
-              <a class="btn btn--lyrics">Lyrics</a>
+            <div class="pause-track">
+               <i class="fa-solid fa-circle-play" onclick="changePauseBtn(this)"></i>
+            </div>
+            <div class="next-track" onclick="nextTrack()">
+               <i class="fa fa-step-forward fa-3x" title="next"></i></i>
+            </div>
+            <div class="repeat-track" onclick="repeatTrack()">
+               <i class="fa-solid fa-rotate-right"></i>
             </div>
          </div>
-
-         <div class="sidebar hidden" onclick="openLibrary(this)">
-          <div class="library-tab">
+         <div class="buttons">
+            <a class="btn btn--library">Library</a>
+            <a class="btn btn--lyrics">Lyrics</a>
+         </div>
+      </div>
+      <div class="sidebar hidden" onclick="openLibrary(this)">
+         <div class="library-tab">
             <h2 class="library-text">Library</h2>
-          </div>
-          <div class="song">
+         </div>
+         <div class="song">
             <div class="img-container">
-              <div class="img">
-                <img class="img-cover" src="img/king-gnu" alt="king-gnu-band">
-              </div>
+               <div class="img">
+                  <img class="img-cover" src="img/king-gnu" alt="king-gnu-band">
+               </div>
             </div>
             <div class="song-info">
-              <h3 class="composer">Sakayume</h3>
-              <h3 class="band-name">King Gnu</h3>
+               <h3 class="composer">Sakayume</h3>
+               <h3 class="band-name">King Gnu</h3>
             </div>
-          </div>
-          <div class="song">
+         </div>
+         <div class="song">
             <div class="img-container">
-              <div class="img">
-                <img class="img-cover" src="img/king-gnu" alt="king-gnu-band">
-              </div>
+               <div class="img">
+                  <img class="img-cover" src="img/king-gnu" alt="king-gnu-band">
+               </div>
             </div>
             <div class="song-info">
-              <h3 class="composer">Sakayume</h3>
-              <h3 class="band-name">King Gnu</h3>
+               <h3 class="composer">Sakayume</h3>
+               <h3 class="band-name">King Gnu</h3>
             </div>
-          </div>
-          <div class="song">
+         </div>
+         <div class="song">
             <div class="img-container">
-              <div class="img">
-                <img class="img-cover" src="img/king-gnu" alt="king-gnu-band">
-              </div>
+               <div class="img">
+                  <img class="img-cover" src="img/king-gnu" alt="king-gnu-band">
+               </div>
             </div>
             <div class="song-info">
-              <h3 class="composer">Sakayume</h3>
-              <h3 class="band-name">King Gnu</h3>
+               <h3 class="composer">Sakayume</h3>
+               <h3 class="band-name">King Gnu</h3>
             </div>
-          </div>
-
-
+         </div>
       </div>
    </body>
 </html>

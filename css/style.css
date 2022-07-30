@@ -103,7 +103,6 @@ body {
 }
 
 .random-track,
-.pause-track,
 .repeat-track {
   font-size: 53px;
   margin-left: 15px;
@@ -111,9 +110,16 @@ body {
   cursor: pointer;
 }
 
+.pause-track {
+  font-size: 58px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
 .prev-track,
 .next-track {
-  font-size: 27px;
+  font-size: 20px;
   margin-left: 15px;
   margin-right: 15px;
   cursor: pointer;
@@ -251,6 +257,10 @@ body {
 
 .hidden {
   opacity: 0;
+}
+
+.unhidden {
+  opacity: 1;
 }
 ::-webkit-scrollbar {
   width: 8px;
