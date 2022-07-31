@@ -60,11 +60,10 @@ const song8 = {
     "https://yt3.ggpht.com/ytc/AMLnZu9EF-SsY_iGEhHmaLcNiyGIwb8JZGDSHnci7pE3Eg=s900-c-k-c0x00ffffff-no-rj",
 };
 const song9 = {
-  name: "神っぽいな",
-  path: "music/Kamipoina.mp3",
-  artist: "Ado",
-  cover:
-    "https://www.lyrical-nonsense.com/wp-content/uploads/2021/09/PinocchioP-God-ish.jpg",
+  name: "Welcome My Friend",
+  path: "music/OKAMOTO'S _ Welcome My Friend (December 5, 2020).mp3",
+  artist: "OKAMOTO'S",
+  cover: "",
 };
 
 const song10 = {
@@ -351,6 +350,159 @@ const song49 = {
   cover:
     "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
 };
+const song50 = {
+  name: "ボッカデラベリタ",
+  path: "music/【Ado】ボッカデラベリタ 歌いました.mp3",
+  artist: "Ado",
+  cover: "",
+};
+const song51 = {
+  name: "絆傷",
+  path: "music/【伊東歌詞太郎】 絆傷（キズナキズ） 【MV 2022】.mp3",
+  artist: "伊東歌詞太郎",
+  cover: "",
+};
+const song52 = {
+  name: "Bubble",
+  path: "music/Bubble feat.Uta - MV Eve.mp3",
+  artist: "Eve",
+  cover: "",
+};
+const song53 = {
+  name: "Departure",
+  path: "music/Departure hunter x hunter full.mp3",
+  artist: "Masatoshi Ono",
+  cover: "",
+};
+const song54 = {
+  name: "MO-EH-YO",
+  path: "music/Fujii Kaze - MO-EH-YO (Official Video).mp3",
+  artist: "Fujii Kaze",
+  cover: "",
+};
+const song55 = {
+  name: "通り恋",
+  path: "music/indigo la End「通り恋」.mp3",
+  artist: "indigo la End",
+  cover: "",
+};
+const song56 = {
+  name: "Prayer X",
+  path: "music/King Gnu - Prayer X.mp3",
+  artist: "King Gnu",
+  cover: "",
+};
+const song57 = {
+  name: "僕のこと",
+  path: "music/Mrs. GREEN APPLE - 僕のこと.mp3",
+  artist: "Mrs. GREEN APPLE",
+  cover: "",
+};
+const song58 = {
+  name: "神っぽいな",
+  path: "music/Kamipoina.mp3",
+  artist: "Ado",
+  cover:
+    "https://www.lyrical-nonsense.com/wp-content/uploads/2021/09/PinocchioP-God-ish.jpg",
+};
+const song59 = {
+  name: "シンデレラボーイ",
+  path: "music/Saucy Dog「シンデレラボーイ」Music Video ＜5th Mini Album「レイジーサンデー」2021.8.25 Release＞.mp3",
+  artist: "Saucy Dog",
+  cover: "",
+};
+const song60 = {
+  name: "サザンカ",
+  path: "music/SEKAI NO OWARI「サザンカ」.mp3",
+  artist: "SEKAI NO OWARI",
+  cover: "",
+};
+const song61 = {
+  name: "unravel",
+  path: "music/unravel　歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song62 = {
+  name: "麻痺",
+  path: "music/yama 『麻痺』MV.mp3",
+  artist: "yama",
+  cover: "",
+};
+const song63 = {
+  name: "いかないで",
+  path: "music/いかないで - Arrange Ver.- 歌ってみた【Eve】.mp3",
+  artist: "Eve",
+  cover: "",
+};
+const song64 = {
+  name: "ガランド ピコン",
+  path: "music/ガランド _ ピコン(cover) - Eve.mp3",
+  artist: "Eve",
+  cover: "",
+};
+const song65 = {
+  name: "ずっと真夜中でいいのに。",
+  path: "music/ずっと真夜中でいいのに。『お勉強しといてよ』MV（ZUTOMAYO - STUDY ME）.mp3",
+  artist: "お勉強しといてよ",
+  cover: "",
+};
+
+const song66 = {
+  name: "ヒバナ",
+  path: "music/ヒバナ／そらる×まふまふ【歌ってみた】.mp3",
+  artist: "そらる×まふまふ",
+  cover: "",
+};
+const song67 = {
+  name: "雨とペトラ",
+  path: "music/雨とペトラ _ バルーン(Cover) めいちゃん.mp3",
+  artist: "めいちゃん",
+  cover: "",
+};
+const song68 = {
+  name: "不可幸力",
+  path: "music/不可幸力 _ Vaundy ：MUSIC VIDEO.mp3",
+  artist: "Vaundy",
+  cover: "",
+};
+const song69 = {
+  name: "嘘じゃない",
+  path: "music/崎山蒼志 「嘘じゃない」 _  Soushi Sakiyama - _Believe_.mp3",
+  artist: "崎山蒼志",
+  cover: "",
+};
+const song70 = {
+  name: "波に名前をつけること",
+  path: "music/波に名前をつけること、僕らの呼吸に終わりがあること。 歌ってみた【Solar×いゔどっと】.mp3",
+  artist: "いゔどっと",
+  cover: "",
+};
+const song71 = {
+  name: "パプリカ",
+  path: "music/米津玄師 - パプリカ  Kenshi Yonezu - PAPRIKA (1).mp3",
+  artist: "Kenshi Yonezu",
+  cover: "",
+};
+const song72 = {
+  name: "絶え間なく藍色",
+  path: "music/絶え間なく藍色 _ 獅子志司 (Cover) めいちゃん.mp3",
+  artist: "めいちゃん",
+  cover: "",
+};
+const song73 = {
+  name: "ホロネス",
+  path: "music/美波「ホロネス」MV.mp3",
+  artist: "美波",
+  cover: "",
+};
+const song74 = {
+  name: "花瓶に触れた",
+  path: "music/花瓶に触れた歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+
 let songs = [
   song1,
   song2,
