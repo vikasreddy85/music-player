@@ -224,7 +224,7 @@ body {
   background-color: #fff;
   width: 25%;
   overflow-y: scroll;
-  left: -500px;
+  left: -5000px;
   transition: 0.5s;
 }
 
