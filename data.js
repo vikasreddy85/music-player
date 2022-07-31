@@ -26,7 +26,8 @@ const song4 = {
   name: "ココロオドル",
   path: "music/kokoro.mp3",
   artist: "nobodyknows+",
-  cover: "https://i.ytimg.com/vi/XaVPr6HVrbI/maxresdefault.jpg",
+  cover:
+    "https://i.kym-cdn.com/entries/icons/facebook/000/011/461/nobodyknows1.jpg",
 };
 
 const song5 = {
@@ -63,7 +64,7 @@ const song9 = {
   name: "Welcome My Friend",
   path: "music/OKAMOTO'S _ Welcome My Friend (December 5, 2020).mp3",
   artist: "OKAMOTO'S",
-  cover: "",
+  cover: "https://m.media-amazon.com/images/I/41g2sz-K01L._AC_SX355_.jpg",
 };
 
 const song10 = {
@@ -179,7 +180,7 @@ const song24 = {
 };
 
 const song25 = {
-  name: "Yofukashi no Uta",
+  name: "Yofukashi",
   path: "music/creepy.mp3",
   artist: "Creepy Nuts",
   cover:
@@ -376,7 +377,7 @@ const song53 = {
   path: "music/Departure hunter x hunter full.mp3",
   artist: "Masatoshi Ono",
   cover:
-    "https://static.wikia.nocookie.net/hunterxhunter/images/3/31/Departure_album_cover.jpg/revision/latest?cb=20220612020344",
+    "https://c-fa.cdn.smule.com/rs-s80/arr/9d/d1/adb32365-3f6e-46ac-9515-027636ee650a_1024.jpg",
 };
 const song54 = {
   name: "MO-EH-YO",
@@ -488,7 +489,7 @@ const song69 = {
     "https://e.snmc.io/i/600/s/59bc769952168963567c4b188b0c2e9e/9240220/%E5%B4%8E%E5%B1%B1%E8%92%BC%E5%BF%97-soushi-sakiyama-%E5%98%98%E3%81%98%E3%82%83%E3%81%AA%E3%81%84-uso-janai-Cover-Art.jpg",
 };
 const song70 = {
-  name: "波に名前をつけること",
+  name: "波に名前をつける",
   path: "music/波に名前をつけること、僕らの呼吸に終わりがあること。 歌ってみた【Solar×いゔどっと】.mp3",
   artist: "いゔどっと",
   cover: "https://pbs.twimg.com/media/FSNNYnPaIAA9L5U.jpg:small",
@@ -757,7 +758,7 @@ const song109 = {
     "https://ogre.natalie.mu/media/pp/static/music/saucydog03/sp_header.jpg?impolicy=hq",
 };
 const song110 = {
-  name: "スターライトパレード",
+  name: "スターライト",
   path: "music/SEKAI NO OWARI「スターライトパレード」from SHOW DVD『ARENA TOUR 2013「ENTERTAINMENT」in 国立代々木第一体育館』.mp3",
   artist: "SEKAI NO OWARI",
   cover:
@@ -962,8 +963,7 @@ const song140 = {
   name: "chAngE",
   path: "music/【星街すいせい】chAngE _ miwa (BLEACH)【歌枠切り抜き】(2020_04_15) Hoshimachi Suisei.mp3",
   artist: "miwa",
-  cover:
-    "https://static.wikia.nocookie.net/bleach/images/6/69/Bleach_Theme_Songs.png/revision/latest?cb=20180109185249&path-prefix=en",
+  cover: "https://upload.wikimedia.org/wikipedia/en/2/27/Miwa_Change.jpg",
 };
 const song141 = {
   name: "フリージア",
@@ -1520,7 +1520,7 @@ let songs = [
   song153,
   song154,
   song155,
-  song155,
+  song156,
   song157,
   song158,
   song159,

@@ -15,6 +15,7 @@ const lyricsBtn = document.querySelector(".btn--lyrics");
 const sideBar = document.querySelector(".sidebar");
 const disk = document.querySelector(".track-image");
 const songList = document.querySelector(".song");
+
 let counter = songs.length - 1;
 let currentMusic = 0;
 const displayLibrary = function (arr) {
