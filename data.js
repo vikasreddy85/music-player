@@ -179,9 +179,9 @@ const song24 = {
 };
 
 const song25 = {
-  name: "ray",
-  path: "music/BUMP OF CHICKEN「ray」.mp3",
-  artist: "BUMP OF CHICKEN",
+  name: "Yofukashi no Uta",
+  path: "music/creepy.mp3",
+  artist: "Creepy Nuts",
   cover:
     "https://yt3.ggpht.com/EtnABrrH7fs0Ze1hyOtxq8aJH6rpXQw0c_mBSaLeTYc2St-QeIjS55rCA0FJkfOlXRQjnlR9=s900-c-k-c0x00ffffff-no-rj",
 };
@@ -502,7 +502,763 @@ const song74 = {
   artist: "メガテラ・ゼロ",
   cover: "",
 };
+const song75 = {
+  name: "Cry Baby",
+  path: "music/[도쿄리벤저스 OP] Official髭男dism(오피셜히게단디즘) - Cry Baby FNS summer 2021 목상태 역대급 레전드 라이브_Live.mp3",
+  artist: "Official髭男dism",
+  cover: "",
+};
+const song76 = {
+  name: "海の声",
+  path: "music/「海の声」 フルver. _ 浦島太郎（桐谷健太） 【公式】.mp3",
+  artist: "浦島太郎",
+  cover: "",
+};
+const song77 = {
+  name: "うっせぇわ",
+  path: "music/【Ado】うっせぇわ.mp3",
+  artist: "Ado",
+  cover: "",
+};
+const song78 = {
+  name: "ブレス",
+  path: "music/【MV】ブレス／まふまふ×DECO_27.mp3",
+  artist: "まふまふ",
+  cover: "",
+};
+const song79 = {
+  name: "帝国少女",
+  path: "music/【伊東歌詞太郎】帝国少女【歌ってみた】.mp3",
+  artist: "伊東歌詞太郎",
+  cover: "",
+};
+const song80 = {
+  name: "花瓶に触れた",
+  path: "music/花瓶に触れた歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song81 = {
+  name: "Again",
+  path: "music/【星街すいせい】Again _ YUI（鋼の錬金術師 FULLMETAL ALCHEMIST）【歌枠切り抜き】(2021_03_08) Hoshimachi Suisei.mp3",
+  artist: "Yui",
+  cover: "",
+};
+const song82 = {
+  name: "罪と罰",
+  path: "music/【星街すいせい】罪と罰 (Tsumi to batsu) _ 椎名林檎【歌枠切り抜き】(2020_11_23) Hoshimachi Suisei.mp3",
+  artist: "椎名林檎",
+  cover: "",
+};
+const song83 = {
+  name: "ハングリーニコル",
+  path: "music/35 煮ル果実 feat  Ado   ハングリーニコル.mp3",
+  artist: "Ado",
+  cover: "",
+};
+const song84 = {
+  name: "勿忘",
+  path: "music/Awesome City Club _ 勿忘  (MUSIC VIDEO).mp3",
+  artist: "Awesome City Club",
+  cover: "",
+};
+const song85 = {
+  name: "ハッピーエンド",
+  path: "music/back number - 「ハッピーエンド」Music Video.mp3",
+  artist: "back number",
+  cover: "",
+};
+const song86 = {
+  name: "Aurora",
+  path: "music/BUMP OF CHICKEN「Aurora」.mp3",
+  artist: "BUMP OF CHICKEN",
+  cover: "",
+};
+const song87 = {
+  name: "打上花火",
+  path: "music/DAOKO × 米津玄師『打上花火』MUSIC VIDEO.mp3",
+  artist: "Kenshi Yonezu",
+  cover: "",
+};
+const song88 = {
+  name: "Matsuri",
+  path: "music/Fujii Kaze -  Matsuri（Official Video）.mp3",
+  artist: "Fujii Kaze",
+  cover: "",
+};
+const song89 = {
+  name: "チューリップ",
+  path: "music/indigo la End「チューリップ」.mp3",
+  artist: "indigo la End",
+  cover: "",
+};
+const song90 = {
+  name: "SILHOUETTE",
+  path: "music/KANA-BOON _ SILHOUETTE [NANIMO] (Lyric).mp3",
+  artist: "KANA-BOON",
+  cover: "",
+};
+const song91 = {
+  name: "Teenager Forever",
+  path: "music/King Gnu - Teenager Forever.mp3",
+  artist: "King Gnu",
+  cover: "",
+};
+const song92 = {
+  name: "幽霊東京",
+  path: "music/Melissa kinrenka cover 3.mp3",
+  artist: "Ayase",
+  cover: "",
+};
+const song93 = {
+  name: "StaRt",
+  path: "music/Mrs. GREEN APPLE - StaRt.mp3",
+  artist: "Mrs. GREEN APPLE",
+  cover: "",
+};
+const song94 = {
+  name: "Cry Baby",
+  path: "music/Official髭男dism - Cry Baby［Official Video］.mp3",
+  artist: "Official髭男dism",
+  cover: "",
+};
+const song95 = {
+  name: "グランドエスケープ",
+  path: "music/RADWIMPS - グランドエスケープ [Official Live Video from _15th Anniversary Special Concert_].mp3",
+  artist: "RADWIMPS",
+  cover: "",
+};
+const song96 = {
+  name: "wake",
+  path: "music/Saucy Dog ”wake” ［OFFICIAL MUSIC VIDEO］.mp3",
+  artist: "Saucy Dog",
+  cover: "",
+};
+const song97 = {
+  name: "silent",
+  path: "music/SEKAI NO OWARI「silent」.mp3",
+  artist: "SEKAI NO OWARI",
+  cover: "",
+};
+const song98 = {
+  name: "らしさ",
+  path: "music/SUPER BEAVER「らしさ」MV.mp3",
+  artist: "SUPER BEAVER",
+  cover: "",
+};
+const song99 = {
+  name: "Sincerely",
+  path: "music/TRUE「Sincerely」 MV Full Size 『ヴァイオレット・エヴァーガーデン』OP主題歌__violet-evergarden_ Opning Theme「Sincerely」.mp3",
+  artist: "Miho Karasawa",
+  cover: "",
+};
+const song100 = {
+  name: "春を告げる",
+  path: "music/yama - 春を告げる (Official Video).mp3",
+  artist: "yama",
+  cover: "",
+};
+const song101 = {
+  name: "ハルジオン",
+  path: "music/YOASOBI「ハルジオン」Official Music Video.mp3",
+  artist: "YOASOBI",
+  cover: "",
+};
+const song102 = {
+  name: "アクシデント",
+  path: "music/アクシデントコーディネイター _ みやけ(Cover) めいちゃん.mp3",
+  artist: "めいちゃん",
+  cover: "",
+};
+const song103 = {
+  name: "ヴィラン",
+  path: "music/ヴィラン _ てにをは (Cover) めいちゃん.mp3",
+  artist: "めいちゃん",
+  cover: "",
+};
+const song104 = {
+  name: "水平線",
+  path: "music/back number - 水平線.mp3",
+  artist: "back number",
+  cover: "",
+};
+const song105 = {
+  name: "Butterfly",
+  path: "music/BUMP OF CHICKEN「Butterfly」.mp3",
+  artist: "BUMP OF CHICKEN",
+  cover: "",
+};
+const song106 = {
+  name: "カメレオン",
+  path: "music/King Gnu - カメレオン.mp3",
+  artist: "King Gnu",
+  cover: "",
+};
+const song107 = {
+  name: "青と夏",
+  path: "music/Mrs. GREEN APPLE - 青と夏.mp3",
+  artist: "Mrs. GREEN APPLE",
+  cover: "",
+};
+const song108 = {
+  name: "Stand By You",
+  path: "music/Official髭男dism - Stand By You［Official Video］.mp3",
+  artist: "Official髭男dism",
+  cover: "",
+};
+const song109 = {
+  name: "いつか",
+  path: "music/Saucy Dog「いつか」MUSIC VIDEO (1).mp3",
+  artist: "Saucy Dog",
+  cover: "",
+};
+const song110 = {
+  name: "スターライトパレード",
+  path: "music/SEKAI NO OWARI「スターライトパレード」from SHOW DVD『ARENA TOUR 2013「ENTERTAINMENT」in 国立代々木第一体育館』.mp3",
+  artist: "SEKAI NO OWARI",
+  cover: "",
+};
+const song111 = {
+  name: "群青",
+  path: "music/YOASOBI「群青」Official Music Video (1).mp3",
+  artist: "YOASOBI",
+  cover: "",
+};
+const song112 = {
+  name: "ラプラス",
+  path: "music/Music Video ラプラス／めいちゃん.mp3",
+  artist: "めいちゃん",
+  cover: "",
+};
+const song113 = {
+  name: "ダンスホール",
+  path: "music/Mrs. GREEN APPLE「ダンスホール」Official Music Video.mp3",
+  artist: "Mrs. GREEN APPLE",
+  cover: "",
+};
+const song114 = {
+  name: "三文小説",
+  path: "music/King Gnu - 三文小説.mp3",
+  artist: "King Gnu",
+  cover: "",
+};
+const song115 = {
+  name: "アンサー",
+  path: "music/BUMP OF CHICKEN「アンサー」.mp3",
+  artist: "BUMP OF CHICKEN",
+  cover: "",
+};
+const song116 = {
+  name: "高嶺の花子",
+  path: "music/back number - 高嶺の花子さん.mp3",
+  artist: "back number",
+  cover: "",
+};
+const song117 = {
+  name: "us",
+  path: "music/us.mp3",
+  artist: "milet",
+  cover: "",
+};
+const song118 = {
+  name: "ゴーストルール",
+  path: "music/ゴーストルール／まふまふ【歌ってみた】.mp3",
+  artist: "まふまふ",
+  cover: "",
+};
+const song119 = {
+  name: "新宝島",
+  path: "music/サカナクション _ 新宝島　-Music Video-.mp3",
+  artist: "サカナクション",
+  cover: "",
+};
+const song120 = {
+  name: "乱舞のメロディ",
+  path: "music/シド「乱舞のメロディ」 _ 星街すいせい(Cover).mp3",
+  artist: "シド",
+  cover: "",
+};
+const song121 = {
+  name: "シャルル",
+  path: "music/シャルル　歌ってみたのはメガテラ･ゼロ.mp3",
+  artist: "メガテラ･ゼロ",
+  cover: "",
+};
+const song122 = {
+  name: "ずっと真夜中でいいのに。",
+  path: "music/ずっと真夜中でいいのに。『ヒューマノイド』MV.mp3",
+  artist: "ヒューマノイド",
+  cover: "",
+};
+const song123 = {
+  name: "音楽を辞めた",
+  path: "music/ヨルシカ - だから僕は音楽を辞めた (Music Video).mp3",
+  artist: "ヨルシカ",
+  cover: "",
+};
+const song124 = {
+  name: "藍才",
+  path: "music/藍才 - Eve MV.mp3",
+  artist: "Eve",
+  cover: "",
+};
+const song125 = {
+  name: "臨界ダイバー",
+  path: "music/臨界ダイバー　歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song126 = {
+  name: "蒼のワルツ",
+  path: "music/蒼のワルツ - Eve MV.mp3",
+  artist: "蒼のワルツ",
+  cover: "",
+};
+const song127 = {
+  name: "Plastic Love",
+  path: "music/竹内まりや -  Plastic Love (Official Music Video).mp3",
+  artist: "竹内まりや",
+  cover: "",
+};
+const song128 = {
+  name: "怪獣の花唄",
+  path: "music/怪獣の花唄　歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song129 = {
+  name: "メルト",
+  path: "music/メルト 歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song130 = {
+  name: "命に嫌われている",
+  path: "music/命に嫌われている。／まふまふ【歌ってみた】.mp3",
+  artist: "まふまふ",
+  cover: "",
+};
+const song131 = {
+  name: "告白",
+  path: "music/告白 歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song132 = {
+  name: "夜行",
+  path: "music/ヨルシカ - 夜行 (OFFICIAL VIDEO).mp3",
+  artist: "ヨルシカ",
+  cover: "",
+};
+const song133 = {
+  name: "フォニイ",
+  path: "music/フォニイ - ツミキ _ 町田ちま(Cover).mp3",
+  artist: "ツミキ",
+  cover: "",
+};
+const song134 = {
+  name: "Black Catcher",
+  path: "music/ビッケブランカ - Black Catcher _ Vicke Blanka - Black Catcher.mp3",
+  artist: "ビッケブランカ",
+  cover: "",
+};
+const song135 = {
+  name: "ピノキオピー",
+  path: "music/ねぇねぇねぇ。 - ピノキオピー（Cover） _ 鯨木×いゔどっと.mp3",
+  artist: "いゔどっと",
+  cover: "",
+};
+const song136 = {
+  name: "ターミナル",
+  path: "music/ターミナル 　歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song137 = {
+  name: "秒針を噛む",
+  path: "music/ずっと真夜中でいいのに。『秒針を噛む』MV.mp3",
+  artist: "ずっと真夜中でいいのに。",
+  cover: "",
+};
+const song138 = {
+  name: "なないろ",
+  path: "music/Nanairo.mp3",
+  artist: "BUMP OF CHICKEN",
+  cover: "",
+};
+const song139 = {
+  name: "ラブカ？",
+  path: "music/【Ado】ラブカ？ 歌いました.mp3",
+  artist: "Ado",
+  cover: "",
+};
+const song140 = {
+  name: "chAngE",
+  path: "music/【星街すいせい】chAngE _ miwa (BLEACH)【歌枠切り抜き】(2020_04_15) Hoshimachi Suisei.mp3",
+  artist: "miwa",
+  cover: "",
+};
+const song141 = {
+  name: "フリージア",
+  path: "music/【歌ってみた】フリージア_Uru【町田ちま】.mp3",
+  artist: "Uru",
+  cover: "",
+};
+const song142 = {
+  name: "Acacia",
+  path: "music/Acacia.mp3",
+  artist: "BUMP OF CHICKEN",
+  cover: "",
+};
+const song143 = {
+  name: "かくれんぼ",
+  path: "music/AliA「かくれんぼ」MV.mp3",
+  artist: "AliA",
+  cover: "",
+};
+const song144 = {
+  name: "flos",
+  path: "music/flos　歌ってみた　【いゔどっと】.mp3",
+  artist: "いゔどっと",
+  cover: "",
+};
+const song145 = {
+  name: "優しさ",
+  path: "music/Fujii Kaze - YASASHISA (Official Video).mp3",
+  artist: "Fujii Kaze",
+  cover: "",
+};
+const song146 = {
+  name: "Imagination",
+  path: "music/Haikyuu!!「AMV」- Opening 1_ Imagination.mp3",
+  artist: "SPYAIR",
+  cover: "",
+};
+const song147 = {
+  name: "瞳に映らない",
+  path: "music/indigo la End - 瞳に映らない.mp3",
+  artist: "indigo la End",
+  cover: "",
+};
+const song148 = {
+  name: "BOY",
+  path: "music/King Gnu - BOY.mp3",
+  artist: "KING GNU",
+  cover: "",
+};
+const song149 = {
+  name: "Lamborghini",
+  path: "music/KSI - Lamborghini (Explicit) ft. P Money.mp3",
+  artist: "KSI",
+  cover: "",
+};
+const song150 = {
+  name: "宇宙の季節",
+  path: "music/Lanndo feat.Eve,suis (from ヨルシカ)「宇宙の季節」Music Video.mp3",
+  artist: "Lanndo",
+  cover: "",
+};
+const song151 = {
+  name: "再会",
+  path: "music/LiSA×Uru - 再会 (produced by Ayase) _ THE FIRST TAKE.mp3",
+  artist: "Ayase",
+  cover: "",
+};
+const song152 = {
+  name: "CHEERS",
+  path: "music/Mrs. GREEN APPLE - CHEERS.mp3",
+  artist: "Mrs. GREEN APPLE",
+  cover: "",
+};
+const song153 = {
+  name: "My Dearest",
+  path: "music/My Dearest (supercell) ／ダズビー COVER.mp3",
+  artist: "supercell",
+  cover: "",
+};
+const song154 = {
+  name: "イエスタデイ",
+  path: "music/Official髭男dism - イエスタデイ［Official Video］.mp3",
+  artist: "Official髭男dism",
+  cover: "",
+};
+const song155 = {
+  name: "only my railgun",
+  path: "music/only my railgun.mp3",
+  artist: "Ishikawa Ayako",
+  cover: "",
+};
+const song156 = {
+  name: "青い太陽",
+  path: "music/SEKAI NO OWARI _ 青い太陽 非公式MV.mp3",
+  artist: "Sekai No OWARI",
+  cover: "",
+};
+const song157 = {
+  name: "フィクション",
+  path: "music/sumika _ フィクション【Music Video】.mp3",
+  artist: "sumika",
+  cover: "",
+};
+const song158 = {
+  name: "名前を呼ぶよ",
+  path: "music/SUPER BEAVER 「名前を呼ぶよ」MV.mp3",
+  artist: "SUPER BEAVER",
+  cover: "",
+};
+const song159 = {
+  name: "怪物",
+  path: "music/YOASOBI「怪物」Official Music Video　(YOASOBI - Monster).mp3",
+  artist: "YOASOBI",
+  cover: "",
+};
+const song160 = {
+  name: "ベテルギウス",
+  path: "music/Yuuri 「ベテルギウス」 (Betelgeuse) Lyrics [Kan_Rom_Eng].mp3",
+  artist: "Yuuri",
+  cover: "",
+};
+const song161 = {
+  name: "マリーゴールド",
+  path: "music/あいみょん – マリーゴールド【AIMYON BUDOKAN -1995-】.mp3",
+  artist: "あいみょん",
+  cover: "",
+};
+const song162 = {
+  name: "エバ",
+  path: "music/エバ　歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song163 = {
+  name: "キルマー",
+  path: "music/キルマー _ ラプラス・ダークネス cover.mp3",
+  artist: "ラプラス",
+  cover: "",
+};
+const song164 = {
+  name: "コールボーイ",
+  path: "music/コールボーイ　歌ってみた【そらる】.mp3",
+  artist: "そらる",
+  cover: "",
+};
+const song165 = {
+  name: "天気の子",
+  path: "music/そらる-【天気の子】愛にできることはまだあるかい／cover.mp3",
+  artist: "そらる",
+  cover: "",
+};
+const song166 = {
+  name: "パンダヒーロー",
+  path: "music/パンダヒーロー Cover _ めいちゃん.mp3",
+  artist: "めいちゃん",
+  cover: "",
+};
+const song167 = {
+  name: "フィクサー",
+  path: "music/フィクサー　歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song168 = {
+  name: "ロストワンの号哭",
+  path: "music/ロストワンの号哭 cover _ そらる【14周年記念】.mp3",
+  artist: "そらる",
+  cover: "",
+};
+const song169 = {
+  name: "夜は仄か",
+  path: "music/夜は仄か - Eve MV.mp3",
+  artist: "Eve",
+  cover: "",
+};
+const song170 = {
+  name: "One Last Kiss",
+  path: "music/宇多田ヒカル『One Last Kiss』.mp3",
+  artist: "宇多田ヒカル",
+  cover: "",
+};
+const song171 = {
+  name: "展望台の少女",
+  path: "music/展望台の少女歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song172 = {
+  name: "懺悔参り",
+  path: "music/懺悔参り　歌ってみた　【いゔどっと】.mp3",
+  artist: "いゔどっと",
+  cover: "",
+};
+const song173 = {
+  name: "朝を呑む",
+  path: "music/朝を呑む歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song174 = {
+  name: "東京フラッシュ",
+  path: "music/東京フラッシュ _ Vaundy ：MUSIC VIDEO.mp3",
+  artist: "Vaundy",
+  cover: "",
+};
+const song175 = {
+  name: "波に飲まれる前に",
+  path: "music/波に飲まれる前に  歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
+const song176 = {
+  name: "海の幽霊",
+  path: "music/海の幽霊 cover _ そらる.mp3",
+  artist: "そらる",
+  cover: "",
+};
+const song177 = {
+  name: "YELLOW",
+  path: "music/神山羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3",
+  artist: "神山羊",
+  cover: "",
+};
+const song178 = {
+  name: "LOSER",
+  path: "music/米津玄師 - LOSER , Kenshi Yonezu.mp3",
+  artist: "Kenshi Yonezu",
+  cover: "",
+};
+const song179 = {
+  name: "Mela!",
+  path: "music/緑黄色社会 『Mela!』Music Video _ Ryokuoushoku Shakai – Mela!.mp3",
+  artist: "緑黄色社会",
+  cover: "",
+};
+const song180 = {
+  name: "アメヲマツ",
+  path: "music/美波「アメヲマツ、」MV.mp3",
+  artist: "美波",
+  cover: "",
+};
+const song181 = {
+  name: "踊り子",
+  path: "music/踊り子 _ Vaundy：MUSIC VIDEO.mp3",
+  artist: "Vaundy",
+  cover: "",
+};
+const song182 = {
+  name: "退屈を再演しないで ",
+  path: "music/退屈を再演しないで - Eve MV.mp3",
+  artist: "Eve",
+  cover: "",
+};
+const song183 = {
+  name: "金木犀",
+  path: "music/金木犀 feat.Ado (Official Video).mp3",
+  artist: "Ado",
+  cover: "",
+};
+const song184 = {
+  name: "鉛の冠",
+  path: "music/鉛の冠　歌ってみた　【いゔどっと】.mp3",
+  artist: "いゔどっと",
+  cover: "",
+};
+const song185 = {
+  name: "闇夜",
+  path: "music/闇夜 - Eve MV _Dark night_.mp3",
+  artist: "Eve",
+  cover: "",
+};
+const song186 = {
+  name: "GO",
+  path: "music/BUMP OF CHICKEN「GO」.mp3",
+  artist: "BUMP OF CHICKEN",
+  cover: "",
+};
+const song187 = {
+  name: "新時代",
+  path: "music/【Ado】新時代 (ウタ from ONE PIECE FILM RED).mp3",
+  artist: "Ado",
+  cover: "",
+};
+const song188 = {
+  name: "藍色好きさ",
+  path: "music/indigo la End - 藍色好きさ.mp3",
+  artist: "indigo la End",
+  cover: "",
+};
+const song189 = {
+  name: "The hole",
+  path: "music/King Gnu - The hole.mp3",
+  artist: "King Gnu",
+  cover: "",
+};
+const song190 = {
+  name: "イルミネーション",
+  path: "music/SEKAI NO OWARI「イルミネーション」.mp3",
+  artist: "SEKAI NO OWARI",
+  cover: "",
+};
+const song191 = {
+  name: "ありがとう",
+  path: "music/SUPER BEAVER「ありがとう」MV（バンドver.）.mp3",
+  artist: "SUPER BEAVER",
+  cover: "",
+};
+const song192 = {
+  name: "カワキヲアメク",
+  path: "music/美波「カワキヲアメク」MV.mp3",
+  artist: "美波",
+  cover: "",
+};
+const song193 = {
+  name: "踊",
+  path: "music/【Ado】踊.mp3",
+  artist: "Ado",
+  cover: "",
+};
+const song194 = {
+  name: "Hello,world!",
+  path: "music/BUMP OF CHICKEN「Hello,world!」.mp3",
+  artist: "BUMP OF CHICKEN",
+  cover: "",
+};
+const song195 = {
+  name: "想いきり",
+  path: "music/indigo la End「想いきり」.mp3",
+  artist: "indigo la End",
+  cover: "",
+};
+const song196 = {
+  name: "傘",
+  path: "music/King Gnu - 傘  OFFICIAL AUDIO.mp3",
+  artist: "King Gnu",
+  cover: "",
+};
+const song197 = {
+  name: "ライラック",
+  path: "music/美波「ライラック」MV.mp3",
+  artist: "美波",
+  cover: "",
+};
 
+const song198 = {
+  name: "inside you",
+  path: "music/milet - inside you  Lyrics(Kan_Rom_Eng_Esp).mp3",
+  artist: "milet",
+  cover: "",
+};
+const song199 = {
+  name: "カタオモイ",
+  path: "music/Aimer 『カタオモイ』MUSIC VIDEO（FULL ver.）.mp3",
+  artist: "Aimer",
+  cover: "",
+};
+const song200 = {
+  name: "アボカド",
+  path: "music/アボカド歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
+  cover: "",
+};
 let songs = [
   song1,
   song2,
