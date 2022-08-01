@@ -27,11 +27,16 @@ body {
   left: 50%;
   height: 750px;
   width: 450px;
-  transform: translateX(-200px) translateY(-350px);
+  transform: translate(-50%, -50%);
   box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);
   border-style: solid;
   border-width: 1px;
   border-color: rgb(160, 160, 255);
+  background-image: linear-gradient(
+    to top,
+    rgba(41, 199, 234, 0.8),
+    rgba(197, 239, 162, 0.8)
+  );
 
   display: flex;
   flex-direction: column;
@@ -41,6 +46,8 @@ body {
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  font-size: 1.4rem;
+  margin-top: 5px;
 }
 .track-image {
   height: 280px;
@@ -50,7 +57,6 @@ body {
   border: 2px solid #fff;
   background-size: cover;
   background-position: center;
-  background-image: url(/img/king-gnu);
   border-radius: 50%;
   -moz-box-shadow: 0px 6px 5px #ccc;
   -webkit-box-shadow: 0px 6px 5px #ccc;
@@ -227,6 +233,7 @@ body {
   width: 25%;
   left: -500px;
   overflow-y: scroll;
+  overflow-x: hidden;
   transition: left 0.3s linear;
   will-change: transform;
 }
@@ -238,7 +245,8 @@ body {
 .library-tab {
   height: 75px;
   background-color: #fff;
-  border-bottom: 2px solid #000;
+  border-bottom: 3px solid #000;
+  margin-bottom: 1px;
 }
 
 .library-text {
@@ -260,36 +268,33 @@ body {
 .song:not(:last-child) {
   margin-bottom: 5px;
 }
-
 .song-info:hover {
   background-image: linear-gradient(
     to top right,
     rgba(194, 147, 235, 0.8),
     rgba(149, 209, 241, 0.8)
   );
+  margin-bottom: 10px;
 }
 
 .img-container {
+  margin-left: 5px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: top;
   position: relative;
-  background-color: rgb(180, 205, 245);
-}
-
-.img {
-  position: absolute;
-  height: 117px;
-  width: 117px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-60px, -60px);
 }
 
 .img-cover {
-  max-width: 100%;
-  max-height: 100%;
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
 }
 
 .composer {
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 1.7;
   margin-top: 40px;
@@ -298,7 +303,7 @@ body {
 }
 
 .band-name {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
   margin-top: -6px;

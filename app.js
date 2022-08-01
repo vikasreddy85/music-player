@@ -15,26 +15,26 @@ const lyricsBtn = document.querySelector(".btn--lyrics");
 const sideBar = document.querySelector(".sidebar");
 const disk = document.querySelector(".track-image");
 const songList = document.querySelector(".song");
+const songInfo = document.querySelector(".song-info");
 
 let counter = songs.length - 1;
+let increment = 0;
 let currentMusic = 0;
 const displayLibrary = function (arr) {
   songList.innerHTML = "";
 
   arr.forEach(function () {
-    console.log(counter);
     const html = `
       <div class="img-container">
-      <div class="img">
        <img class="img-cover" src="${arr[counter].cover}" alt="${arr[counter].name}">
       </div>
-      </div>
-        <div class="song-info">
+        <div class="song-info" id=${increment}>
         <h3 class="composer">${arr[counter].name}</h3>
         <h3 class="band-name">${arr[counter].artist}</h3>
       </div>
     `;
     counter--;
+    increment++;
     songList.insertAdjacentHTML("afterbegin", html);
   });
 };
@@ -69,12 +69,21 @@ const setMusic = (i) => {
   numOfSongs.textContent =
     "Playing " + (currentMusic + 1) + " of " + songs.length;
   disk.style.backgroundImage = `url(${songs[currentMusic].cover})`;
-  currentTime.innerHTML = "00:00";
-  setTimeout(() => {
+  currentTime.textContent = "00:00";
+  seekBar.max = music.duration;
+  music.addEventListener("loadeddata", () => {
+    let mainAdDuration = music.duration;
+    let totalMin = Math.floor(mainAdDuration / 60);
+    let totalSec = Math.floor(mainAdDuration % 60);
+    if (totalSec < 10) {
+      totalSec = `0${totalSec}`;
+    }
+    musicDuration.innerText = `0${totalMin}:${totalSec}`;
     seekBar.max = music.duration;
-    musicDuration.innerHTML = formatTime(music.duration);
-  }, 300);
+  });
 };
+setMusic(0);
+displayLibrary(songs);
 
 //Format Time
 const formatTime = (time) => {
@@ -136,7 +145,8 @@ shuffleBtn.addEventListener("click", () => {
   if (randomNum === currentMusic) {
     randomNum = Math.floor(Math.random() * songs.length);
   }
-  setMusic(randomNum);
+  currentMusic = randomNum;
+  setMusic(currentMusic);
   playMusic();
 });
 
@@ -145,6 +155,3 @@ const playMusic = () => {
   playBtn.classList.remove("pause");
   disk.classList.remove("play");
 };
-
-setMusic(0);
-displayLibrary(songs);
