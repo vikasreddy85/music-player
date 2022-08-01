@@ -21,19 +21,16 @@ const song3 = {
     "https://yt3.ggpht.com/7o4Wdc51o2uhiaeq9SDYYVLl7hj96YevA5nEtqXQXD0aftDGRVkx6nQALJyTpX9GuxnQ5n3JF00=s900-c-k-c0x00ffffff-no-rj",
 };
 const song4 = {
+  name: "Apollo",
+  path: "music/ポルノグラフィティ『アポロ』(_OPEN MUSIC CABINET_LIVE IN SAITAMA SUPER ARENA 2007_) _ PORNOGRAFFITTI『Apollo(Live)』.mp3",
+  artist: "ポルノグラフィティ",
+  cover: "https://news.mynavi.jp/article/20180914-693233/images/001.jpg",
+};
+const song5 = {
   name: "Welcome My Friend",
   path: "music/OKAMOTO'S _ Welcome My Friend (December 5, 2020).mp3",
   artist: "OKAMOTO'S",
   cover: "https://m.media-amazon.com/images/I/41g2sz-K01L._AC_SX355_.jpg",
-};
-
-const song5 = {
-  //three
-  name: "ツキミソウ",
-  path: "music/noveltwo.mp3",
-  artist: "Novelbright",
-  cover:
-    "https://yt3.ggpht.com/7o4Wdc51o2uhiaeq9SDYYVLl7hj96YevA5nEtqXQXD0aftDGRVkx6nQALJyTpX9GuxnQ5n3JF00=s900-c-k-c0x00ffffff-no-rj",
 };
 
 const song6 = {
@@ -58,10 +55,11 @@ const song8 = {
     "https://yt3.ggpht.com/ytc/AMLnZu9EF-SsY_iGEhHmaLcNiyGIwb8JZGDSHnci7pE3Eg=s900-c-k-c0x00ffffff-no-rj",
 };
 const song9 = {
-  name: "Apollo",
-  path: "music/ポルノグラフィティ『アポロ』(_OPEN MUSIC CABINET_LIVE IN SAITAMA SUPER ARENA 2007_) _ PORNOGRAFFITTI『Apollo(Live)』.mp3",
-  artist: "ポルノグラフィティ",
-  cover: "https://news.mynavi.jp/article/20180914-693233/images/001.jpg",
+  name: "ツキミソウ",
+  path: "music/noveltwo.mp3",
+  artist: "Novelbright",
+  cover:
+    "https://yt3.ggpht.com/7o4Wdc51o2uhiaeq9SDYYVLl7hj96YevA5nEtqXQXD0aftDGRVkx6nQALJyTpX9GuxnQ5n3JF00=s900-c-k-c0x00ffffff-no-rj",
 };
 
 const song10 = {
