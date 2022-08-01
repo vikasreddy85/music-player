@@ -34,7 +34,7 @@ body {
   border-color: rgb(160, 160, 255);
   background-image: linear-gradient(
     to top,
-    rgba(41, 199, 234, 0.8),
+    rgba(25, 195, 233, 0.8),
     rgba(197, 239, 162, 0.8)
   );
 
@@ -234,7 +234,7 @@ body {
   left: -500px;
   overflow-y: scroll;
   overflow-x: hidden;
-  transition: left 0.3s linear;
+  transition: left 0.25s linear;
   will-change: transform;
 }
 
@@ -255,6 +255,7 @@ body {
   color: #000;
   padding: 13px;
   margin-left: 12px;
+  text-transform: uppercase;
 }
 
 .song {

@@ -16,28 +16,36 @@ const sideBar = document.querySelector(".sidebar");
 const disk = document.querySelector(".track-image");
 const songList = document.querySelector(".song");
 const songInfo = document.querySelector(".song-info");
+const ulTag = document.querySelector(".song-container");
+const allLiTag = ulTag.getElementsByTagName("li");
 
-let counter = songs.length - 1;
 let increment = 0;
 let currentMusic = 0;
 const displayLibrary = function (arr) {
-  songList.innerHTML = "";
-
-  arr.forEach(function () {
-    const html = `
-      <div class="img-container">
-       <img class="img-cover" src="${arr[counter].cover}" alt="${arr[counter].name}">
-      </div>
-        <div class="song-info" id=${increment}>
-        <h3 class="composer">${arr[counter].name}</h3>
-        <h3 class="band-name">${arr[counter].artist}</h3>
-      </div>
-    `;
-    counter--;
-    increment++;
-    songList.insertAdjacentHTML("afterbegin", html);
-  });
+  ulTag.innerHTML = "";
+  for (let counter = 0; counter < songs.length; counter++) {
+    //let's pass the song name, artist from the array
+    let liTag = `<li li-index="${counter}">
+                    <div class="song">
+                      <div class="img-container">
+                        <img class="img-cover" src="${arr[counter].cover}" alt="${arr[counter].name}">
+                      </div>
+                     <div class="song-info" id=${increment}>
+                      <h3 class="composer">${arr[counter].name}</h3>
+                       <h3 class="band-name">${arr[counter].artist}</h3>
+                      </div>
+                  <  /div>
+                  </li>`;
+    ulTag.insertAdjacentHTML("beforeend", liTag);
+  }
 };
+
+ulTag.addEventListener("click", function (e) {
+  songIndex = e.target.closest("li").getAttribute("li-index");
+  currentMusic = songIndex;
+  setMusic(currentMusic);
+  playMusic();
+});
 
 //Oraganize Library
 libraryBtn.addEventListener("click", function (e) {
@@ -66,8 +74,7 @@ const setMusic = (i) => {
 
   songName.innerHTML = song.name;
   artistName.innerHTML = song.artist;
-  numOfSongs.textContent =
-    "Playing " + (currentMusic + 1) + " of " + songs.length;
+  numOfSongs.textContent = "Playing " + currentMusic + " of " + songs.length;
   disk.style.backgroundImage = `url(${songs[currentMusic].cover})`;
   currentTime.textContent = "00:00";
   seekBar.max = music.duration;
@@ -141,11 +148,10 @@ rewindBtn.addEventListener("click", () => {
 
 //Random Button
 shuffleBtn.addEventListener("click", () => {
-  randomNum = Math.floor(Math.random() * songs.length);
-  if (randomNum === currentMusic) {
-    randomNum = Math.floor(Math.random() * songs.length);
+  for (let i = 0; i < allLiTag.length - 1; i++) {
+    ulTag.appendChild(allLiTag[(Math.random() * i) | 0]);
   }
-  currentMusic = randomNum;
+  currentMusic = allLiTag[0].getAttribute("li-index");
   setMusic(currentMusic);
   playMusic();
 });
