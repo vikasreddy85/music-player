@@ -325,6 +325,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
+  z-index: -1;
 }
 
 ::-webkit-scrollbar {
