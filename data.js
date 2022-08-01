@@ -1,17 +1,16 @@
 const song1 = {
+  name: "まつり",
+  path: "music/Fujii Kaze -  Matsuri（Official Video）.mp3",
+  artist: "Fujii Kaze",
+  cover:
+    "https://www.billboard.com/wp-content/uploads/2021/11/Fujii-Kaze-press-2021-billboard-1548.jpg",
+};
+const song2 = {
   name: "セーラ☆ムン太郎",
   path: "music/maharajan.mov",
   artist: "マハラージャン",
   cover:
     "https://is4-ssl.mzstatic.com/image/thumb/Music126/v4/43/f0/98/43f098da-14e2-be64-36f1-f898a331ede7/4547366538113.jpg/1200x1200bf-60.jpg",
-};
-
-const song2 = {
-  name: "帰ろ",
-  path: "music/kaero.mp3",
-  artist: "Fuji Kaze",
-  cover:
-    "https://www.billboard.com/wp-content/uploads/2021/11/Fujii-Kaze-press-2021-billboard-1548.jpg",
 };
 const song3 = {
   //one
@@ -21,13 +20,11 @@ const song3 = {
   cover:
     "https://yt3.ggpht.com/7o4Wdc51o2uhiaeq9SDYYVLl7hj96YevA5nEtqXQXD0aftDGRVkx6nQALJyTpX9GuxnQ5n3JF00=s900-c-k-c0x00ffffff-no-rj",
 };
-
 const song4 = {
-  name: "ココロオドル",
-  path: "music/kokoro.mp3",
-  artist: "nobodyknows+",
-  cover:
-    "https://i.kym-cdn.com/entries/icons/facebook/000/011/461/nobodyknows1.jpg",
+  name: "Welcome My Friend",
+  path: "music/OKAMOTO'S _ Welcome My Friend (December 5, 2020).mp3",
+  artist: "OKAMOTO'S",
+  cover: "https://m.media-amazon.com/images/I/41g2sz-K01L._AC_SX355_.jpg",
 };
 
 const song5 = {
@@ -61,28 +58,24 @@ const song8 = {
     "https://yt3.ggpht.com/ytc/AMLnZu9EF-SsY_iGEhHmaLcNiyGIwb8JZGDSHnci7pE3Eg=s900-c-k-c0x00ffffff-no-rj",
 };
 const song9 = {
-  name: "Welcome My Friend",
-  path: "music/OKAMOTO'S _ Welcome My Friend (December 5, 2020).mp3",
-  artist: "OKAMOTO'S",
-  cover: "https://m.media-amazon.com/images/I/41g2sz-K01L._AC_SX355_.jpg",
+  name: "Apollo",
+  path: "music/ポルノグラフィティ『アポロ』(_OPEN MUSIC CABINET_LIVE IN SAITAMA SUPER ARENA 2007_) _ PORNOGRAFFITTI『Apollo(Live)』.mp3",
+  artist: "ポルノグラフィティ",
+  cover: "https://news.mynavi.jp/article/20180914-693233/images/001.jpg",
 };
 
 const song10 = {
-  name: "Pale Blue",
-  path: "music/pale-blue.mp3",
-  artist: "Kenshi Yonezu",
-  cover:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWR9ZvdV5qd2EroI9P-K7la8QhX6IYvSMhwg&usqp=CAU",
+  name: "雨燦々",
+  path: "music/King Gnu【雨燦々 Ame sansan】全曲歌詞付き｜Lyric Video｜歌詞影片｜『オールドルーキー』主題歌｜日曜劇場｜Old Rookie 主題歌.mp3",
+  artist: "King Gnu",
+  cover: "https://images-fe.ssl-images-amazon.com/images/I/41WKgaVegFL.jpg",
 };
-
 const song11 = {
-  name: "Habit",
-  path: "music/habit.mp3",
-  artist: "Sekai no Owari",
-  cover:
-    "https://i.discogs.com/5mOat0edrY87EGBaocXfKqMYZkTRN0KVBJjbe8wRC6E/rs:fit/g:sm/q:90/h:479/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MTI0/MzItMTQ4MTE5OTY1/MC0zMDY1LnBuZw.jpeg",
+  name: "Marunoichi 1",
+  path: "music/guitar.mp3",
+  artist: "Osamuraisan",
+  cover: "https://i1.sndcdn.com/artworks-000142707979-fbh7db-t500x500.jpg",
 };
-
 const song12 = {
   name: "レディメイド",
   path: "music/ready.mp3",
@@ -112,12 +105,11 @@ const song15 = {
   artist: "Mrs. Green Apple",
   cover: "https://m.media-amazon.com/images/I/51xBRCUkIRL._SS500_.jpg",
 };
-
 const song16 = {
-  name: "Marunoichi 1",
-  path: "music/guitar.mp3",
-  artist: "Osamuraisan",
-  cover: "https://i1.sndcdn.com/artworks-000142707979-fbh7db-t500x500.jpg",
+  name: "ワタリドリ",
+  path: "music/Alexandros_-_MV_(getmp3.pro).mp3",
+  artist: "Alexandros",
+  cover: "http://simg.mysound.jp/img/disc/036/120_UPCH-2036.jpg",
 };
 
 const song17 = {
@@ -129,16 +121,17 @@ const song17 = {
 
 const song18 = {
   name: "Marunoichi 2",
-  path: "music/marunoichi.mp3",
+  path: "music/mai.mp3",
   artist: "めいちゃん",
   cover:
     "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
 };
 const song19 = {
-  name: "一途",
-  path: "music/Ichizu.mp3",
-  artist: "King Gnu",
-  cover: "https://images-fe.ssl-images-amazon.com/images/I/41WKgaVegFL.jpg",
+  name: "YELLOW",
+  path: "music/神山羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3",
+  artist: "神山羊",
+  cover:
+    "https://c-fa.cdn.smule.com/rs-s96/arr/bd/07/e15479ba-ead4-4cc3-a119-3d5cda2fdfc4_1024.jpg",
 };
 
 const song20 = {
@@ -180,11 +173,11 @@ const song24 = {
 };
 
 const song25 = {
-  name: "Yofukashi",
+  name: "夜更かしの歌",
   path: "music/creepy.mp3",
   artist: "Creepy Nuts",
   cover:
-    "https://yt3.ggpht.com/EtnABrrH7fs0Ze1hyOtxq8aJH6rpXQw0c_mBSaLeTYc2St-QeIjS55rCA0FJkfOlXRQjnlR9=s900-c-k-c0x00ffffff-no-rj",
+    "https://spice.eplus.jp/images/tDuuw0MKyW6BghSPslrYqkyIg8lGicYofFxsyLEQ5ClTZ2P03pCI816wZhlQetcf",
 };
 
 const song26 = {
@@ -203,7 +196,7 @@ const song27 = {
 };
 
 const song28 = {
-  name: "Kirari",
+  name: "きらり",
   path: "music/Fujii Kaze - Kirari (Official Video).mp3",
   artist: "Fuji Kaze",
   cover:
@@ -217,10 +210,10 @@ const song29 = {
   cover: "https://img.ananweb.jp/2019/10/12123242/311-455x600.jpg",
 };
 const song30 = {
-  name: "夏夜のマジック",
-  path: "music/indigo la End「夏夜のマジック」.mp3",
-  artist: "indigo la End",
-  cover: "https://img.ananweb.jp/2019/10/12123242/311-455x600.jpg",
+  name: "WanteD!",
+  path: "music/Mrs. GREEN APPLE - WanteD! WanteD!.mp3",
+  artist: "Mrs. GREEN APPLE",
+  cover: "https://m.media-amazon.com/images/I/61EqXcCkdtL._AC_SX355_.jpg",
 };
 const song31 = {
   name: "どろん",
@@ -249,10 +242,10 @@ const song34 = {
   cover: "https://m.media-amazon.com/images/I/91JMI+UoYcL._AC_SL1500_.jpg",
 };
 const song35 = {
-  name: "WanteD!",
-  path: "music/Mrs. GREEN APPLE - WanteD! WanteD!.mp3",
-  artist: "Mrs. GREEN APPLE",
-  cover: "https://m.media-amazon.com/images/I/61EqXcCkdtL._AC_SX355_.jpg",
+  name: "夏夜のマジック",
+  path: "music/indigo la End「夏夜のマジック」.mp3",
+  artist: "indigo la End",
+  cover: "https://img.ananweb.jp/2019/10/12123242/311-455x600.jpg",
 };
 const song36 = {
   name: "予感",
@@ -269,11 +262,11 @@ const song37 = {
     "https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/4b/ba/5b/4bba5b81-c56e-1513-4326-e24daf4a7bff/195497666737.jpg/600x600bf-60.jpg",
 };
 const song38 = {
-  name: "劣等上等",
-  path: "music/劣等上等 歌ってみたのはメガテラ・ゼロ (1).mp3",
-  artist: "メガテラ・ゼロ",
+  name: "遊生夢死",
+  path: "music/YUSEIBOUSHI_-_Eve_Lyrics_Vid_(getmp3.pro).mp3",
+  artist: "Eve",
   cover:
-    "https://yt3.ggpht.com/ytc/AMLnZu81hRrvsJW5OeCpF9SzjK25lir7iEQTXQ_ofgM8=s900-c-k-c0x00ffffff-no-rj",
+    "https://ogre.natalie.mu/artist/104938/20201223/EVE_art202012.jpg?imwidth=640&imdensity=1",
 };
 
 const song39 = {
@@ -291,10 +284,11 @@ const song40 = {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnDr5unbf4BHbn33LKkA0AAEUdXSj1Qhs43rnv9Hjxm9TK-tFkSfeUvW2IB-vI0JxHPi8&usqp=CAU",
 };
 const song41 = {
-  name: "Apollo",
-  path: "music/ポルノグラフィティ『アポロ』(_OPEN MUSIC CABINET_LIVE IN SAITAMA SUPER ARENA 2007_) _ PORNOGRAFFITTI『Apollo(Live)』.mp3",
-  artist: "ポルノグラフィティ",
-  cover: "https://news.mynavi.jp/article/20180914-693233/images/001.jpg",
+  name: "ココロオドル",
+  path: "music/kokoro.mp3",
+  artist: "nobodyknows+",
+  cover:
+    "https://i.kym-cdn.com/entries/icons/facebook/000/011/461/nobodyknows1.jpg",
 };
 const song42 = {
   name: "ヲズワルド",
@@ -310,11 +304,11 @@ const song43 = {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6tDy8qu7mO9w7-pe7JZr4HjshDtPGseU4BhQ43htRC62R37ua7wsbkdIvzZ3xVLI-p6E&usqp=CAU",
 };
 const song44 = {
-  name: "アイボリー",
-  path: "music/アイボリー 歌ってみたのはメガテラ・ゼロ.mp3",
-  artist: "メガテラ・ゼロ",
+  name: "絶え間なく藍色",
+  path: "music/絶え間なく藍色 _ 獅子志司 (Cover) めいちゃん.mp3",
+  artist: "めいちゃん",
   cover:
-    "https://yt3.ggpht.com/ytc/AMLnZu81hRrvsJW5OeCpF9SzjK25lir7iEQTXQ_ofgM8=s900-c-k-c0x00ffffff-no-rj",
+    "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
 };
 const song45 = {
   name: "君の神様になりたい",
@@ -338,18 +332,18 @@ const song47 = {
     "https://yt3.ggpht.com/ytc/AMLnZu-a_zfDCmdvUihG0DgQdTY6aPT4lQ5Sst5qnvczgg=s88-c-k-c0x00ffffff-no-rj",
 };
 const song48 = {
-  name: "阿吽のビーツ",
-  path: "music/阿吽のビーツ　歌ってみたのはメガテラ・ゼロ.mp3",
+  name: "真赤",
+  path: "music/_(getmp3.pro) (4).mp3",
   artist: "メガテラ・ゼロ",
   cover:
     "https://yt3.ggpht.com/ytc/AMLnZu81hRrvsJW5OeCpF9SzjK25lir7iEQTXQ_ofgM8=s900-c-k-c0x00ffffff-no-rj",
 };
 const song49 = {
-  name: "雨とペトラ",
-  path: "music/雨とペトラ _ バルーン(Cover) めいちゃん.mp3",
-  artist: "めいちゃん",
+  name: "Habit",
+  path: "music/habit.mp3",
+  artist: "Sekai no Owari",
   cover:
-    "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
+    "https://i.discogs.com/5mOat0edrY87EGBaocXfKqMYZkTRN0KVBJjbe8wRC6E/rs:fit/g:sm/q:90/h:479/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MTI0/MzItMTQ4MTE5OTY1/MC0zMDY1LnBuZw.jpeg",
 };
 const song50 = {
   name: "ボッカデラベリタ",
@@ -381,7 +375,7 @@ const song53 = {
 };
 const song54 = {
   name: "MO-EH-YO",
-  path: "music/Fujii Kaze - MO-EH-YO (Official Video).mp3",
+  path: "music/Fujii_Kaze_-_MO-EH-YO_Official_Vid_(getmp3.pro).mp3",
   artist: "Fujii Kaze",
   cover:
     "https://www.billboard.com/wp-content/uploads/2021/11/Fujii-Kaze-press-2021-billboard-1548.jpg",
@@ -447,11 +441,11 @@ const song63 = {
     "https://ogre.natalie.mu/artist/104938/20201223/EVE_art202012.jpg?imwidth=640&imdensity=1",
 };
 const song64 = {
-  name: "ガランド ピコン",
-  path: "music/ガランド _ ピコン(cover) - Eve.mp3",
-  artist: "Eve",
+  name: "この街に晴れはこない",
+  path: "music/MV_(getmp3.pro).mp3",
+  artist: "美波",
   cover:
-    "https://ogre.natalie.mu/artist/104938/20201223/EVE_art202012.jpg?imwidth=640&imdensity=1",
+    "https://yt3.ggpht.com/ytc/AMLnZu-a_zfDCmdvUihG0DgQdTY6aPT4lQ5Sst5qnvczgg=s88-c-k-c0x00ffffff-no-rj",
 };
 const song65 = {
   name: "お勉強しといてよ",
@@ -502,11 +496,11 @@ const song71 = {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWR9ZvdV5qd2EroI9P-K7la8QhX6IYvSMhwg&usqp=CAU",
 };
 const song72 = {
-  name: "絶え間なく藍色",
-  path: "music/絶え間なく藍色 _ 獅子志司 (Cover) めいちゃん.mp3",
-  artist: "めいちゃん",
+  name: "アイボリー",
+  path: "music/アイボリー 歌ってみたのはメガテラ・ゼロ.mp3",
+  artist: "メガテラ・ゼロ",
   cover:
-    "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
+    "https://yt3.ggpht.com/ytc/AMLnZu81hRrvsJW5OeCpF9SzjK25lir7iEQTXQ_ofgM8=s900-c-k-c0x00ffffff-no-rj",
 };
 const song73 = {
   name: "ホロネス",
@@ -517,7 +511,7 @@ const song73 = {
 };
 const song74 = {
   name: "花瓶に触れた",
-  path: "music/花瓶に触れた歌ってみたのはメガテラ・ゼロ.mp3",
+  path: "music/_(getmp3.pro).mp3",
   artist: "メガテラ・ゼロ",
   cover:
     "https://yt3.ggpht.com/ytc/AMLnZu81hRrvsJW5OeCpF9SzjK25lir7iEQTXQ_ofgM8=s900-c-k-c0x00ffffff-no-rj",
@@ -531,7 +525,7 @@ const song75 = {
 };
 const song76 = {
   name: "海の声",
-  path: "music/「海の声」 フルver. _ 浦島太郎（桐谷健太） 【公式】.mp3",
+  path: "music/BEGIN feat. Kenta Kiritani - Umi No Koe (Music Japan 08.02.2016).mp3",
   artist: "浦島太郎",
   cover: "https://m.media-amazon.com/images/I/713kebyXDUL._SS500_.jpg",
 };
@@ -557,11 +551,10 @@ const song79 = {
     "https://komachi-mag.com/wp-content/uploads/2019/08/d9463ab3838f3b11fef8f0903e497990.jpg",
 };
 const song80 = {
-  name: "花瓶に触れた",
-  path: "music/花瓶に触れた歌ってみたのはメガテラ・ゼロ.mp3",
-  artist: "メガテラ・ゼロ",
-  cover:
-    "https://yt3.ggpht.com/ytc/AMLnZu81hRrvsJW5OeCpF9SzjK25lir7iEQTXQ_ofgM8=s900-c-k-c0x00ffffff-no-rj",
+  name: "夜明けと蛍",
+  path: "music/_-LIVE_(getmp3.pro).mp3",
+  artist: "天月",
+  cover: "https://i1.sndcdn.com/artworks-000108687931-8n3xz1-t500x500.jpg",
 };
 const song81 = {
   name: "Again",
@@ -571,7 +564,7 @@ const song81 = {
 };
 const song82 = {
   name: "罪と罰",
-  path: "music/【星街すいせい】罪と罰 (Tsumi to batsu) _ 椎名林檎【歌枠切り抜き】(2020_11_23) Hoshimachi Suisei.mp3",
+  path: "music/Ado__(getmp3.pro).mp3",
   artist: "椎名林檎",
   cover:
     "https://content-jp.umgi.net/products/to/toct-22052_HVI_extralarge.jpg?12052017115512",
@@ -611,9 +604,9 @@ const song87 = {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWR9ZvdV5qd2EroI9P-K7la8QhX6IYvSMhwg&usqp=CAU",
 };
 const song88 = {
-  name: "Matsuri",
-  path: "music/Fujii Kaze -  Matsuri（Official Video）.mp3",
-  artist: "Fujii Kaze",
+  name: "帰ろ",
+  path: "music/kaero.mp3",
+  artist: "Fuji Kaze",
   cover:
     "https://www.billboard.com/wp-content/uploads/2021/11/Fujii-Kaze-press-2021-billboard-1548.jpg",
 };
@@ -705,17 +698,16 @@ const song101 = {
 };
 const song102 = {
   name: "アクシデント",
-  path: "music/アクシデントコーディネイター _ みやけ(Cover) めいちゃん.mp3",
+  path: "music/_Cover__(getmp3.pro).mp3",
   artist: "めいちゃん",
   cover:
     "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
 };
 const song103 = {
   name: "ヴィラン",
-  path: "music/ヴィラン _ てにをは (Cover) めいちゃん.mp3",
-  artist: "めいちゃん",
-  cover:
-    "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
+  path: "music/_(getmp3.pro) (2).mp3",
+  artist: "てにをは",
+  cover: "https://m.media-amazon.com/images/I/71wJ1OaqaqL._SS500_.jpg",
 };
 const song104 = {
   name: "水平線",
@@ -926,14 +918,14 @@ const song134 = {
   cover: "https://i.scdn.co/image/ab67616d0000b273494c1d99702bf6618ceb8441",
 };
 const song135 = {
-  name: "ピノキオピー",
-  path: "music/ねぇねぇねぇ。 - ピノキオピー（Cover） _ 鯨木×いゔどっと.mp3",
+  name: "鉛の冠",
+  path: "music/_(getmp3.pro) (1).mp3",
   artist: "いゔどっと",
   cover: "https://pbs.twimg.com/media/FSNNYnPaIAA9L5U.jpg:small",
 };
 const song136 = {
   name: "ターミナル",
-  path: "music/ターミナル 　歌ってみたのはメガテラ・ゼロ.mp3",
+  path: "music/__(getmp3.pro).mp3",
   artist: "メガテラ・ゼロ",
   cover:
     "https://yt3.ggpht.com/ytc/AMLnZu81hRrvsJW5OeCpF9SzjK25lir7iEQTXQ_ofgM8=s900-c-k-c0x00ffffff-no-rj",
@@ -1006,7 +998,7 @@ const song146 = {
 };
 const song147 = {
   name: "瞳に映らない",
-  path: "music/indigo la End - 瞳に映らない.mp3",
+  path: "music/indigo_la_End_-__(getmp3.pro).mp3",
   artist: "indigo la End",
   cover: "https://img.ananweb.jp/2019/10/12123242/311-455x600.jpg",
 };
@@ -1044,7 +1036,7 @@ const song152 = {
 };
 const song153 = {
   name: "My Dearest",
-  path: "music/My Dearest (supercell) ／ダズビー COVER.mp3",
+  path: "music/My_Dearest_supercell_COVER_(getmp3.pro).mp3",
   artist: "supercell",
   cover: "https://m.media-amazon.com/images/I/61EyTutiFFL._AC_SX355_.jpg",
 };
@@ -1102,7 +1094,7 @@ const song161 = {
 };
 const song162 = {
   name: "エバ",
-  path: "music/エバ　歌ってみたのはメガテラ・ゼロ.mp3",
+  path: "music/_(getmp3.pro) (3).mp3",
   artist: "メガテラ・ゼロ",
   cover:
     "https://yt3.ggpht.com/ytc/AMLnZu81hRrvsJW5OeCpF9SzjK25lir7iEQTXQ_ofgM8=s900-c-k-c0x00ffffff-no-rj",
@@ -1128,7 +1120,7 @@ const song165 = {
 };
 const song166 = {
   name: "パンダヒーロー",
-  path: "music/パンダヒーロー Cover _ めいちゃん.mp3",
+  path: "music/_Cover__(getmp3.pro) (1).mp3",
   artist: "めいちゃん",
   cover:
     "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
@@ -1201,11 +1193,10 @@ const song176 = {
     "https://reissuerecords.net/rr/wp-content/themes/rr/special/uminoyuurei/img/jacket.jpg",
 };
 const song177 = {
-  name: "YELLOW",
-  path: "music/神山羊 - YELLOW【Music Video】_ Yoh Kamiyama - YELLOW.mp3",
-  artist: "神山羊",
-  cover:
-    "https://c-fa.cdn.smule.com/rs-s96/arr/bd/07/e15479ba-ead4-4cc3-a119-3d5cda2fdfc4_1024.jpg",
+  name: "一途",
+  path: "music/Ichizu.mp3",
+  artist: "King Gnu",
+  cover: "https://images-fe.ssl-images-amazon.com/images/I/41WKgaVegFL.jpg",
 };
 const song178 = {
   name: "LOSER",
@@ -1364,6 +1355,7 @@ const song200 = {
   cover:
     "https://yt3.ggpht.com/ytc/AMLnZu81hRrvsJW5OeCpF9SzjK25lir7iEQTXQ_ofgM8=s900-c-k-c0x00ffffff-no-rj",
 };
+
 let songs = [
   song1,
   song2,

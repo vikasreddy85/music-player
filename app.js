@@ -74,7 +74,9 @@ const setMusic = (i) => {
 
   songName.innerHTML = song.name;
   artistName.innerHTML = song.artist;
-  numOfSongs.textContent = "Playing " + currentMusic + " of " + songs.length;
+  numOfSongs.textContent = `Playing ${Number(currentMusic) + 1} of ${
+    songs.length
+  }`;
   disk.style.backgroundImage = `url(${songs[currentMusic].cover})`;
   currentTime.textContent = "00:00";
   seekBar.max = music.duration;

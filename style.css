@@ -13,12 +13,10 @@ body {
 
 .background-picture {
   height: 100vh;
-  background-image: linear-gradient(
-    to top right,
-    rgba(129, 7, 235, 0.8),
-    rgba(9, 153, 231, 0.8)
-  );
+  background-image: linear-gradient(to top right, #185a9d, #43cea2);
   position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .card {
@@ -30,13 +28,9 @@ body {
   transform: translate(-50%, -50%);
   box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-color: rgb(160, 160, 255);
-  background-image: linear-gradient(
-    to top,
-    rgba(25, 195, 233, 0.8),
-    rgba(197, 239, 162, 0.8)
-  );
+  background-image: linear-gradient(to top, #2c3e50, #3498db);
 
   display: flex;
   flex-direction: column;
@@ -195,6 +189,7 @@ body {
   background-color: #fff;
   color: #777;
   width: 240px;
+  margin-bottom: 7px;
 }
 
 .btn:hover {
@@ -264,6 +259,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   cursor: pointer;
+  margin-bottom: 6px;
 }
 
 .song:not(:last-child) {
@@ -310,6 +306,25 @@ body {
   margin-top: -6px;
   margin-left: 20px;
   color: #000;
+}
+.text-box {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+.proj-name {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 5px;
+  font-family: "Lato";
+  color: #fff;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
 }
 
 ::-webkit-scrollbar {
