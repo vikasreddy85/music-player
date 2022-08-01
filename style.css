@@ -359,4 +359,7 @@ body {
   .text-box {
     visibility: hidden;
   }
+  .sidebar {
+    width: 100%;
+  }
 }

@@ -42,6 +42,7 @@ const displayLibrary = function (arr) {
 
 ulTag.addEventListener("click", function (e) {
   songIndex = e.target.closest("li").getAttribute("li-index");
+  sideBar.classList.toggle("active");
   currentMusic = songIndex;
   setMusic(currentMusic);
   playMusic();
