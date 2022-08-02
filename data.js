@@ -460,8 +460,8 @@ const song66 = {
   cover: "https://www.fashion-press.net/img/news/75210/I-c.jpg",
 };
 const song67 = {
-  name: "雨とペトラ",
-  path: "music/雨とペトラ _ バルーン(Cover) めいちゃん.mp3",
+  name: "ライムライト",
+  path: "music/Y2Mate.is - 「ライムライト」Live full ver. めいちゃん-HYCn6GB9Zso-160k-1659404610600.mp3",
   artist: "めいちゃん",
   cover:
     "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
