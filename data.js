@@ -116,10 +116,9 @@ const song17 = {
   artist: "ヨルシカ",
   cover: "https://sp.universal-music.co.jp/yorushika/matasaburou/img/jkt.jpg",
 };
-
 const song18 = {
-  name: "Marunoichi 2",
-  path: "music/mai.mp3",
+  name: "ライムライト",
+  path: "music/Y2Mate.is - 「ライムライト」Live full ver. めいちゃん-HYCn6GB9Zso-160k-1659404610600.mp3",
   artist: "めいちゃん",
   cover:
     "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
@@ -460,8 +459,8 @@ const song66 = {
   cover: "https://www.fashion-press.net/img/news/75210/I-c.jpg",
 };
 const song67 = {
-  name: "ライムライト",
-  path: "music/Y2Mate.is - 「ライムライト」Live full ver. めいちゃん-HYCn6GB9Zso-160k-1659404610600.mp3",
+  name: "Marunoichi 2",
+  path: "music/mai.mp3",
   artist: "めいちゃん",
   cover:
     "https://yt3.ggpht.com/ytc/AKedOLT7246eM4g2AwoED1cZGlyzy60auMoWkhZPm2WDyg=s900-c-k-c0x00ffffff-no-rj",
