@@ -112,7 +112,7 @@ const formatTime = (time) => {
 setInterval(() => {
   seekBar.value = music.currentTime;
   currentTime.innerHTML = formatTime(music.currentTime);
-  if (Math.floor(music.currentTime) == Math.floor(seekBar.max)) {
+  if (Math.floor(music.currentTime) == Math.floor(seekBar.max) - 2) {
     nextBtn.click();
   }
 }, 500);
