@@ -1,6 +1,6 @@
 # ![WebApp](img/landing.png)
 
-# WebApp
+# JPOP Music Player
 
 <table>
 <tr>
