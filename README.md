@@ -12,7 +12,7 @@
 
 ## Demo
 
-Here is a working live demo : vikasreddy.tech/music-player
+Here is a working live demo : [vikasreddy.tech/music-player](https://jpop-music-player.vercel.app/)
 
 ## Mobile support
 
